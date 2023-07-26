@@ -86,10 +86,12 @@
         <section class="max-w-screen-2xl px-8 md:px-16 lg:px-24 py-2 ">
 
             <div class="carousel -ml-10">
+
                 <!-- slide 1 -->
                 <div id="slide1" class="carousel-item relative w-full">
 
                     <div class="hero min-h-[calc(100vh-140px)] bg-1  border-0 rounded-2xl bg-opacity-100">
+                        <div class="hero-overlay bg-black bg-opacity-60 absolute inset-0"></div>
                         <div class="relative max-w-lg mb-60 bg-opacity-60">
                             <h1 class=" text-white text-5xl font-bold">Exotic tastes at your <span
                                     class="mx-28">doorstep</span></h1>
@@ -109,6 +111,7 @@
 
 
                     <div class="hero min-h-[calc(100vh-140px)] bg-2 border-0 rounded-2xl bg-opacity-100">
+                        <div class="hero-overlay bg-black bg-opacity-60 absolute inset-0"></div>
                         <div class="relative max-w-lg mb-60 bg-opacity-60">
                             <h1 class=" text-white text-5xl font-bold">Exotic tastes at your <span
                                     class="mx-28">doorstep</span></h1>
@@ -128,6 +131,7 @@
                 <div id="slide3" class="carousel-item relative w-full">
 
                     <div class="hero min-h-[calc(100vh-140px)] bg-3 border-0 rounded-2xl bg-opacity-5">
+                        <div class="hero-overlay bg-black bg-opacity-60 absolute inset-0"></div>
                         <div class="relative max-w-lg mb-60 bg-opacity-60">
                             <h1 class=" text-white text-5xl font-bold">Exotic tastes at your <span
                                     class="mx-28">doorstep</span></h1>
@@ -150,6 +154,7 @@
                 <!-- slide-4 -->
                 <div id="slide4" class="carousel-item relative w-full">
                     <div class="hero min-h-[calc(100vh-140px)] bg-4 border-0 rounded-2xl bg-opacity-5">
+                        <div class="hero-overlay bg-black bg-opacity-60 absolute inset-0"></div>
                         <div class="relative max-w-lg mb-60 bg-opacity-60">
                             <h1 class=" text-white text-5xl font-bold">Exotic tastes at your <span
                                     class="mx-28">doorstep</span></h1>
@@ -203,7 +208,7 @@
                     <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin
                         literature from 45 BC, making it over 2000 years old.</p>
                 </div>
-                <div class="flex-1 justify-end grid grid-flow-col gap-5 text-center auto-cols-max">
+                <div class="flex-1 justify-end grid grid-flow-col gap-5  auto-cols-max">
                     <div class="flex flex-col">
                         <span class="countdown font-mono text-5xl">
                             <span style="--value:29;"></span> :
@@ -236,7 +241,7 @@
         <!-- modals -->
 
         <section class="grid grid-cols-4 gap-10 max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
-         
+
             <div class="card w-auto bg-base-100 shadow-2xl">
                 <figure class="px-10 pt-10">
                     <img src="/images/fruit6.png" alt="Shoes" class="rounded-xl" />
@@ -245,7 +250,7 @@
                     <h2 class="card-title">12.90$ - 18.85$</h2>
                 </div>
 
-                <hr>
+                <div class="divider"></div>
                 <div class="grid grid-rows-3 gap-2">
                     <p class="text-center">Apples</p>
                     <div class="rating rating-lg rating-half ml-10">
@@ -279,7 +284,8 @@
                                 <input type="radio" name="rating-222" class="bg-red-500 mask mask-star-2 mask-half-1"
                                     checked />
                                 <input type="radio" name="rating-143" class="bg-red-500 mask mask-star-2 mask-half-2" />
-                                <input type="radio" name="rating-1222" class="bg-red-500 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-1222"
+                                    class="bg-red-500 mask mask-star-2 mask-half-1" />
                                 <input type="radio" name="rating-81" class="bg-red-500 mask mask-star-2 mask-half-2" />
                                 <input type="radio" name="rating-92" class="bg-red-500 mask mask-star-2 mask-half-1" />
                                 <input type="radio" name="rating-183" class="bg-red-500 mask mask-star-2 mask-half-2" />
@@ -308,7 +314,7 @@
                     <h2 class="card-title">12.90$ - 18.85$</h2>
                 </div>
 
-                <hr>
+                <div class="divider"></div>
                 <div class="grid grid-rows-3 gap-2">
                     <p class="text-center mt-2">Orange</p>
                     <div class="rating rating-lg rating-half ml-10">
@@ -332,28 +338,36 @@
                         <div class="modal-box">
                             <img class="ml-44" src="./images/fruit7.png" alt="">
                             <h3 class="text-center font-bold text-lg my-2 ">Orange</h3>
-                            <p class="py-4 text-center">Professional employees are there for you to pick the most amazing and fresh
+                            <p class="py-4 text-center">Professional employees are there for you to pick the most
+                                amazing and fresh
                                 fruits.</p>
 
-                                <div class="rating rating-lg rating-half ml-36">
-                                    <input type="radio" name="rating-611" class="rating-hidden" />
-                                    <input type="radio" name="rating-383" class="bg-red-500 mask mask-star-2 mask-half-1" />
-                                    <input type="radio" name="rating-4342" class="bg-red-500 mask mask-star-2 mask-half-2" />
-                                    <input type="radio" name="rating-2222" class="bg-red-500 mask mask-star-2 mask-half-1"
-                                        checked />
-                                    <input type="radio" name="rating-1432" class="bg-red-500 mask mask-star-2 mask-half-2" />
-                                    <input type="radio" name="rating-12221" class="bg-red-500 mask mask-star-2 mask-half-1" />
-                                    <input type="radio" name="rating-812" class="bg-red-500 mask mask-star-2 mask-half-2" />
-                                    <input type="radio" name="rating-922" class="bg-red-500 mask mask-star-2 mask-half-1" />
-                                    <input type="radio" name="rating-1831" class="bg-red-500 mask mask-star-2 mask-half-2" />
-                                    <input type="radio" name="rating-1983" class="bg-red-500 mask mask-star-2 mask-half-1" />
-                                    <input type="radio" name="rating-994" class="bg-red-500 mask mask-star-2 mask-half-2" />
-                                </div>
+                            <div class="rating rating-lg rating-half ml-36">
+                                <input type="radio" name="rating-611" class="rating-hidden" />
+                                <input type="radio" name="rating-383" class="bg-red-500 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-4342"
+                                    class="bg-red-500 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-2222" class="bg-red-500 mask mask-star-2 mask-half-1"
+                                    checked />
+                                <input type="radio" name="rating-1432"
+                                    class="bg-red-500 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-12221"
+                                    class="bg-red-500 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-812" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-922" class="bg-red-500 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-1831"
+                                    class="bg-red-500 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-1983"
+                                    class="bg-red-500 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-994" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                            </div>
 
 
 
                             <div class="modal-action justify-center">
-                                <label for="my_modal_4"  class="btn bg-white border-red-300 text-red-500">Close</label><label for="my_modal_4" class="btn bg-red-500 text-white">Buy
+                                <label for="my_modal_4"
+                                    class="btn bg-white border-red-300 text-red-500">Close</label><label
+                                    for="my_modal_4" class="btn bg-red-500 text-white">Buy
                                     Now</label>
                             </div>
                         </div>
@@ -371,7 +385,7 @@
                     <h2 class="card-title">12.90$ - 18.85$</h2>
                 </div>
 
-                <hr>
+                <div class="divider"></div>
                 <div class="grid grid-rows-3 gap-2">
                     <p class="text-center">Red Dragon</p>
                     <div class="rating rating-lg rating-half ml-10">
@@ -395,26 +409,38 @@
                         <div class="modal-box">
                             <img class="ml-44" src="./images/fruit8.png" alt="">
                             <h3 class="font-bold text-lg text-center">Red Dragon</h3>
-                            <p class="py-4 text-center">Professional employees are there for you to pick the most amazing and fresh
+                            <p class="py-4 text-center">Professional employees are there for you to pick the most
+                                amazing and fresh
                                 fruits.</p>
-                                <div class="rating rating-lg rating-half ml-36">
-                                    <input type="radio" name="rating-0789" class="rating-hidden" />
-                                    <input type="radio" name="rating-944" class="bg-red-500 mask mask-star-2 mask-half-1" />
-                                    <input type="radio" name="rating-0385" class="bg-red-500 mask mask-star-2 mask-half-2" />
-                                    <input type="radio" name="rating-3478" class="bg-red-500 mask mask-star-2 mask-half-1" checked />
-                                    <input type="radio" name="rating-3500" class="bg-red-500 mask mask-star-2 mask-half-2" />
-                                    <input type="radio" name="rating-3388" class="bg-red-500 mask mask-star-2 mask-half-1" />
-                                    <input type="radio" name="rating-3233" class="bg-red-500 mask mask-star-2 mask-half-2" />
-                                    <input type="radio" name="rating-3044" class="bg-red-500 mask mask-star-2 mask-half-1" />
-                                    <input type="radio" name="rating-3166" class="bg-red-500 mask mask-star-2 mask-half-2" />
-                                    <input type="radio" name="rating-3377" class="bg-red-500 mask mask-star-2 mask-half-1" />
-                                    <input type="radio" name="rating-1399" class="bg-red-500 mask mask-star-2 mask-half-2" />
-                                </div>
+                            <div class="rating rating-lg rating-half ml-36">
+                                <input type="radio" name="rating-0789" class="rating-hidden" />
+                                <input type="radio" name="rating-944" class="bg-red-500 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-0385"
+                                    class="bg-red-500 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-3478" class="bg-red-500 mask mask-star-2 mask-half-1"
+                                    checked />
+                                <input type="radio" name="rating-3500"
+                                    class="bg-red-500 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-3388"
+                                    class="bg-red-500 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-3233"
+                                    class="bg-red-500 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-3044"
+                                    class="bg-red-500 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-3166"
+                                    class="bg-red-500 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-3377"
+                                    class="bg-red-500 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-1399"
+                                    class="bg-red-500 mask mask-star-2 mask-half-2" />
+                            </div>
 
 
 
                             <div class="modal-action justify-center">
-                                <label for="my_modal_5"  class="btn bg-white border-red-300 text-red-500">Close</label><label for="my_modal_5" class="btn bg-red-500 text-white">Buy
+                                <label for="my_modal_5"
+                                    class="btn bg-white border-red-300 text-red-500">Close</label><label
+                                    for="my_modal_5" class="btn bg-red-500 text-white">Buy
                                     Now</label>
                             </div>
                         </div>
@@ -432,7 +458,7 @@
                     <h2 class="card-title">12.90$ - 18.85$</h2>
                 </div>
 
-                <hr>
+                <div class="divider"></div>
                 <div class="grid grid-rows-3 gap-2">
                     <p class="text-center">Banana</p>
                     <div class="rating rating-lg rating-half ml-10">
@@ -456,62 +482,73 @@
                         <div class="modal-box">
                             <img class="ml-44" src="./images/fruit9.png" alt="">
                             <h3 class="font-bold text-lg text-center">Banana</h3>
-                            <p class="py-4 text-center">Professional employees are there for you to pick the most amazing and fresh
+                            <p class="py-4 text-center">Professional employees are there for you to pick the most
+                                amazing and fresh
                                 fruits.</p>
-                                <div class="rating rating-lg rating-half ml-36">
-                                    <input type="radio" name="rating-1078" class="rating-hidden" />
-                                    <input type="radio" name="rating-135" class="bg-red-500 mask mask-star-2 mask-half-1" />
-                                    <input type="radio" name="rating-196" class="bg-red-500 mask mask-star-2 mask-half-2" />
-                                    <input type="radio" name="rating-1278" class="bg-red-500 mask mask-star-2 mask-half-1" checked />
-                                    <input type="radio" name="rating-1956" class="bg-red-500 mask mask-star-2 mask-half-2" />
-                                    <input type="radio" name="rating-1376" class="bg-red-500 mask mask-star-2 mask-half-1" />
-                                    <input type="radio" name="rating-188" class="bg-red-500 mask mask-star-2 mask-half-2" />
-                                    <input type="radio" name="rating-2078" class="bg-red-500 mask mask-star-2 mask-half-1" />
-                                    <input type="radio" name="rating-2387" class="bg-red-500 mask mask-star-2 mask-half-2" />
-                                    <input type="radio" name="rating-1988" class="bg-red-500 mask mask-star-2 mask-half-1" />
-                                    <input type="radio" name="rating-408" class="bg-red-500 mask mask-star-2 mask-half-2" />
-                                </div>
+                            <div class="rating rating-lg rating-half ml-36">
+                                <input type="radio" name="rating-1078" class="rating-hidden" />
+                                <input type="radio" name="rating-135" class="bg-red-500 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-196" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-1278" class="bg-red-500 mask mask-star-2 mask-half-1"
+                                    checked />
+                                <input type="radio" name="rating-1956"
+                                    class="bg-red-500 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-1376"
+                                    class="bg-red-500 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-188" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-2078"
+                                    class="bg-red-500 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-2387"
+                                    class="bg-red-500 mask mask-star-2 mask-half-2" />
+                                <input type="radio" name="rating-1988"
+                                    class="bg-red-500 mask mask-star-2 mask-half-1" />
+                                <input type="radio" name="rating-408" class="bg-red-500 mask mask-star-2 mask-half-2" />
+                            </div>
 
 
 
                             <div class="modal-action justify-center">
-                                <label for="my_modal_6"  class="btn bg-white border-red-300 text-red-500">Close</label><label for="my_modal_6" class="btn bg-red-500 text-white" >Buy
+                                <label for="my_modal_6"
+                                    class="btn bg-white border-red-300 text-red-500">Close</label><label
+                                    for="my_modal_6" class="btn bg-red-500 text-white">Buy
                                     Now</label>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-         <button class=" ml-auto -mr-96 w-24 btn bg-red-500 text-white">Close</button>
-   
-            
-        </section>
+            <button class=" ml-auto -mr-96 w-24 btn bg-red-500 text-white">Close</button>
 
-        <section  class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
+
+        </section>
+        <!-- team section -->
+
+        <section class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
             <div class="hero relative">
                 <img src="./images/team.png" alt="">
                 <div class="hero-overlay bg-black bg-opacity-60 absolute inset-0"></div>
-           
-            
+
+
                 <div class="hero-content text-center text-neutral-content">
-                  <div class="max-w-md">
-                    <h1 class="mb-5 text-5xl text-white font-bold">Meet the team section</h1>
-                    <p class="mb-5 text-white">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <div class="max-w-md">
+                        <h1 class="mb-5 text-5xl text-white font-bold">Meet the team section</h1>
+                        <p class="mb-5 text-white">Contrary to popular belief, is not simply random text. It has roots
+                            in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
 
-                    <div class="flex gap-10 justify-between">
-                        <div class=" ">
-                            <img src="./images/member1.png" alt="">
-                            <h2 class="text-xl">Awlad Hossain</h2>
-                            <p>Fruits Expert</p>
-                            <div class="grid grid-cols-3 gap-3">
-                                <img src="./images/facebook 1.png" alt="">
-                                <img src="./images/twitter (1) 1.png" alt="">
-                                <img src="./images/linkedin 1.png" alt="">
+                        <div class="flex gap-10 justify-between">
+                            <div class=" ">
+                                <img src="./images/member1.png" alt="">
+                                <h2 class="text-xl">Awlad Hossain</h2>
+                                <p>Fruits Expert</p>
+                                <div class="grid grid-cols-3 gap-3">
+                                    <img src="./images/facebook 1.png" alt="">
+                                    <img src="./images/twitter (1) 1.png" alt="">
+                                    <img src="./images/linkedin 1.png" alt="">
+                                </div>
+
                             </div>
+                            <div class="">
 
-                        </div>
-                        <div class="">
-                            
                                 <img src="./images/member2.png" alt="">
                                 <h2 class="text-xl">Awlad Hossain</h2>
                                 <p>Fruits Expert</p>
@@ -520,10 +557,10 @@
                                     <img src="./images/twitter (1) 1.png" alt="">
                                     <img src="./images/linkedin 1.png" alt="">
                                 </div>
-    
-                            
-                        </div>
-                       
+
+
+                            </div>
+
                             <div class="">
                                 <img src="./images/member3.png" alt="">
                                 <h2 class="text-xl">Rokib Hossain</h2>
@@ -533,11 +570,11 @@
                                     <img src="./images/twitter (1) 1.png" alt="">
                                     <img src="./images/linkedin 1.png" alt="">
                                 </div>
-    
+
                             </div>
-                        
-                        <div class="">
-                            
+
+                            <div class="">
+
                                 <img class="" src="./images/member4.png" alt="">
                                 <h2 class="text-xl mb-6">Chaity</h2>
                                 <p>Fruits Expert</p>
@@ -546,15 +583,74 @@
                                     <img src="./images/twitter (1) 1.png" alt="">
                                     <img src="./images/linkedin 1.png" alt="">
                                 </div>
-    
-                            
-                        </div>
 
+
+                            </div>
+
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
+            </div>
         </section>
+
+        <section class="max-w-screen-2xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
+
+           <div class="my-10 mx-80">
+            <h2 class="text-center text-2xl font-bold my-5">Why Choose Us</h2>
+            <p class="text-center">Contrary to popular belief, is not simply random text. It has roots in a piece of
+                classical Latin literature from 45 BC, making it over 2000 years old.</p>
+           </div>
+
+            <div class="grid grid-cols-3">
+                <div>
+                    
+                        <h2 class="">Dedicated Team</h2>
+                      
+                  
+                 
+                    
+                    <div class="divider">
+                       
+                    </div>
+                    <p class="">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    
+                    <h2 class="">Fresh is Best</h2>
+                    <div class="divider"></div>
+                    <p class="">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                   
+                    <h2 class="">Why Choose Us</h2>
+                    <div class="divider"></div>
+                    <p class="">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+
+                </div>
+
+                <div class="w-96 my-10 mx-10">
+                    <img src="./images/whychoose1.png" alt="">
+                </div>
+                <div>
+                    <h2 class="">Integrated Supplier</h2>
+                    <div class="divider"></div>
+                    <p class="">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    
+                    <h2 class="">Sustainable Practice</h2>
+                    <div class="divider"></div>
+                    <p class="">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                   
+                    <h2 class="">The Benefits Only</h2>
+                    <div class="divider"></div>
+                    <p class="">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </section>
+
+
 
 
     </main>
